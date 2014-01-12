@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/aopalliance.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/commons-io-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-aop-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-asm-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-aspects-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-beans-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-context-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-context-support-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-core-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-expression-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-instrument-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-instrument-tomcat-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-jdbc-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-jms-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-orm-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-oxm-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-struts-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-test-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-tx-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-web-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-webmvc-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-webmvc-portlet-3.0.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/oraclexe/app/oracle/product/10.2.0/server/jdbc/lib/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/commons-dbcp-1.4.jar" sourcepath="I:/commons-dbcp-1.4-bin/commons-dbcp-1.4/commons-dbcp-1.4-sources.jar"/>
+	<classpathentry kind="lib" path="C:/commons-dbutils-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/commons-digester3-3.2.jar"/>
+	<classpathentry kind="lib" path="E:/Spring 3.0 jar/commons-pool-1.0.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
