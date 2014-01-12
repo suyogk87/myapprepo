@@ -36,7 +36,7 @@ public class AccountServiceImpl implements AccountService {
 	@Override
 	public Account geByAccno(int accno) {
 		// TODO Auto-generated method stub
-			return accountDAO.findAccno(accno);
+			return accountDAO.findByAccno(accno);
 	}
 
 	@Override

@@ -28,7 +28,6 @@
 	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-webmvc-3.0.2.RELEASE.jar"/>
 	<classpathentry kind="lib" path="E:/Spring 3.0 jar/spring-webmvc-portlet-3.0.2.RELEASE.jar"/>
 	<classpathentry kind="lib" path="D:/oraclexe/app/oracle/product/10.2.0/server/jdbc/lib/ojdbc14.jar"/>
-	<classpathentry kind="lib" path="C:/commons-dbcp-1.4.jar" sourcepath="I:/commons-dbcp-1.4-bin/commons-dbcp-1.4/commons-dbcp-1.4-sources.jar"/>
 	<classpathentry kind="lib" path="C:/commons-dbutils-1.5.jar"/>
 	<classpathentry kind="lib" path="C:/commons-digester3-3.2.jar"/>
 	<classpathentry kind="lib" path="E:/Spring 3.0 jar/commons-pool-1.0.1.jar"/>

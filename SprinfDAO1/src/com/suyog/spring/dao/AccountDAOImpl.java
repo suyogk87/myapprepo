@@ -105,7 +105,7 @@ public class AccountDAOImpl implements AccountDAO{
 	}
 
 	@Override
-	public Account findAccno(int accno) {
+	public Account findByAccno(int accno) {
 		// TODO Auto-generated method stub
 		Connection connection = null;
 		PreparedStatement preparedStatement = null;

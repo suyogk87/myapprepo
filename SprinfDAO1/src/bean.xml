@@ -29,7 +29,7 @@
   	<property name="maxWait" value="${oracle.maxWait}"></property>
   </bean>
   <bean id="accountDAO" class="com.suyog.spring.dao.AccountDAOImpl">
-  	<property name="dataSource"
+  	<property name="datasource"
   	          ref="datasource">
   	</property>
   </bean>
