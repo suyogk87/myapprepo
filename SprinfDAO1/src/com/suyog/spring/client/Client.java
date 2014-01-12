@@ -16,7 +16,7 @@ public class Client {
 		ApplicationContext context = new ClassPathXmlApplicationContext("bean.xml");
 		AccountService accountService = context.getBean("accountService",AccountService.class); 
 		System.out.println("Connection"+AccountDAOImpl.class);
-		Account account = new Account();
+		/*Account account = new Account();*/
 		/*INSERT CODE GOES HERE*/
 		/*account.setAccno(1004);
 		account.setName("Suyog");
