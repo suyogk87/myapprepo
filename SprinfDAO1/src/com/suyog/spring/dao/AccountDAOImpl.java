@@ -56,9 +56,10 @@ public class AccountDAOImpl implements AccountDAO{
 		try{
 			connection = datasource.getConnection();
 			preparedStatement = connection.prepareStatement(QueryConstants.ACCOUNT_UPDATE);
-			preparedStatement.setString(1, account.getName());
-			preparedStatement.setDouble(2, account.getBalance());
-			preparedStatement.setInt(3, account.getAccno());
+			preparedStatement.setInt(1, account.getAccno());
+			preparedStatement.setString(2, account.getName());
+			preparedStatement.setDouble(3, account.getBalance());
+			
 			int rowUpdated = preparedStatement.executeUpdate();
 			System.out.println("Number of Rows Updated :"+rowUpdated);
 		}catch(SQLException e){
@@ -220,14 +221,16 @@ public class AccountDAOImpl implements AccountDAO{
 	public List<Account> findAll() {
 		// TODO Auto-generated method stub
 		Connection connection = null;
+		System.out.println(connection);
 		PreparedStatement preparedStatement = null;
 		ResultSet resultSet = null;
 		List<Account> accountsList = new ArrayList<Account>();
 		try{
 			connection = datasource.getConnection();
 			preparedStatement = connection.prepareStatement(QueryConstants.ACCOUNT_FIND_ALL);
+			System.out.println(QueryConstants.ACCOUNT_FIND_ALL);
 			resultSet = preparedStatement.executeQuery();
-			while(resultSet != null){
+			while(resultSet.next()){
 				Account account = new Account();
 				account.setAccno(resultSet.getInt("ACCNO"));
 				account.setName(resultSet.getString("NAME"));
