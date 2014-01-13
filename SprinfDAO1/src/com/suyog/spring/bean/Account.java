@@ -4,6 +4,7 @@ public class Account {
 	private int accno;
 	private String name;
 	private double balance;
+	/*This is the encapsulation*/
 	
 	public int getAccno() {
 		return accno;
